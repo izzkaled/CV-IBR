@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إبراهيم محمد الصقري - مهندس كهرباء</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <i class="fas fa-bolt"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link" data-lang="nav-home">الرئيسية</a></li>
+            <li><a href="#about" class="nav-link" data-lang="nav-about">نبذة عني</a></li>
+            <li><a href="#experience" class="nav-link" data-lang="nav-experience">الخبرات</a></li>
+            <li><a href="#skills" class="nav-link" data-lang="nav-skills">المهارات</a></li>
+            <li><a href="#certificates" class="nav-link" data-lang="nav-certificates">الشهادات</a></li>
+            <li><a href="#contact" class="nav-link" data-lang="nav-contact">تواصل معي</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="language-switch">
+                <button class="lang-btn" onclick="toggleLanguage()">
+                    <span class="lang-icon">🌐</span>
+                    <span class="lang-text" data-lang="current-lang">EN</span>
+                </button>
+            </div>
+        </div>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
+    </nav>
+    <!-- الغلاف الأول -->
+        <!-- القسم الرئيسي -->
+        <header class="hero" id="home">
+            <div class="hero-content">
+                <div class="circuit-animation">
+                    <div class="circuit-path circuit-path-1"></div>
+                    <div class="circuit-path circuit-path-2"></div>
+                    <div class="circuit-node circuit-node-1"></div>
+                    <div class="circuit-node circuit-node-2"></div>
+                    <div class="circuit-node circuit-node-3"></div>
+                    <div class="circuit-line circuit-line-1"></div>
+                    <div class="circuit-line circuit-line-2"></div>
+                </div>
+                <div class="hero-text">
+                    <div class="electric-shape">
+                        <div class="circuit-lines">
+                            <div class="line line-1"></div>
+                            <div class="line line-2"></div>
+                            <div class="line line-3"></div>
+                            <div class="dots">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 data-lang="hero-title">إبراهيم محمد الصقري</h1>
+                    <h2 data-lang="hero-subtitle">مهندس كهرباء</h2>
+                    <p class="hero-description" data-lang="hero-description">متخصص في تصميم وتطوير الأنظمة الكهربائية</p>
+                    <a href="assets/cv.pdf" download class="download-cv">
+                        <span class="download-text" data-lang="download-cv">تحميل السيرة الذاتية</span>
+                        <span class="download-icon">
+                            <i class="fas fa-download"></i>
+                            <div class="electric-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </span>
+                    </a>
+                </div>
+                <div class="hero-animation">
+                    <div class="circuit-animation">
+                        <div class="circuit-pattern"></div>
+                        <div class="electric-lines">
+                            <div class="e-line"></div>
+                            <div class="e-line"></div>
+                            <div class="e-line"></div>
+                        </div>
+                        <div class="electric-dots">
+                            <div class="e-dot"></div>
+                            <div class="e-dot"></div>
+                            <div class="e-dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <p data-lang="scroll-text">اسحب للأسفل</p>
+            </div>
+        </header>
+    <main>
+        <!-- الهدف المهني -->
+        <section class="objective" id="objective">
+            <h2 data-lang="objective-title">الهدف المهني</h2>
+            <p data-lang="objective-text">الاستفادة من خبرتي في الهندسة الكهربائية للمساهمة في المشاريع المبتكرة، وتحسين الأنظمة، وتحسين كفاءة الطاقة. أهدف إلى تطبيق مهاراتي التقنية في تصميم وتحليل وتنفيذ الأنظمة الكهربائية، مع التعلم المستمر والتكيف مع التقنيات الناشئة. هدفي هو دفع تطوير حلول كهربائية مستدامة وموثوقة تلبي المعايير التنظيمية والصناعية.</p>
+        </section>
+
+        <!-- التعليم -->
+        <section class="education" id="education">
+            <h2 data-lang="education-title">التعليم</h2>
+            <div class="education-item">
+                <h3 data-lang="education-degree">بكالوريوس في الهندسة الكهربائية</h3>
+                <p class="institution" data-lang="education-institution">جامعة التقنية والعلوم التطبيقية</p>
+                <p class="year" data-lang="education-year">2024</p>
+            </div>
+        </section>
+
+        <!-- الخبرات -->
+        <section id="experience" class="experience-section">
+            <div class="section-header">
+                <h2 data-lang="experience-title">الخبرات العملية</h2>
+                <div class="electric-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-lang="experience-tractebel-title">Tractebel للتشغيل والصيانة عُمان</h3>
+                        <p class="timeline-date" data-lang="experience-tractebel-date">2023</p>
+                        <p class="timeline-description" data-lang="experience-tractebel-description">تدريب في مجال التشغيل والصيانة</p>
+                        <p class="timeline-details" data-lang="experience-tractebel-details">اكتسبت خبرة عملية في صيانة وتشغيل المعدات الكهربائية وأنظمة التحكم</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-lang="experience-mazoon-title">شركة مزون للكهرباء</h3>
+                        <p class="timeline-date" data-lang="experience-mazoon-date">2022</p>
+                        <p class="timeline-description" data-lang="experience-mazoon-description">تدريب في قسم العمليات</p>
+                        <p class="timeline-details" data-lang="experience-mazoon-details">عملت في قسم العمليات وشاركت في مراقبة وإدارة شبكات التوزيع الكهربائية</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- المهارات -->
+        <section id="skills" class="skills-section">
+            <div class="section-header">
+                <h2 data-lang="skills-title">المهارات</h2>
+                <div class="electric-line"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3 data-lang="skills-technical">المهارات التقنية</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span class="skill-name" data-lang="skill-design">تصميم الدوائر الكهربائية</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name" data-lang="skill-plc">برمجة PLC</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name" data-lang="skill-matlab">MATLAB</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name" data-lang="skill-autocad">AutoCAD</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 data-lang="skills-personal">المهارات الشخصية</h3>
+                    <div class="personal-skills">
+                        <div class="skill-tag" data-lang="skill-communication">التواصل الفعال</div>
+                        <div class="skill-tag" data-lang="skill-teamwork">العمل الجماعي</div>
+                        <div class="skill-tag" data-lang="skill-problem-solving">حل المشكلات</div>
+                        <div class="skill-tag" data-lang="skill-analysis">التحليل والتقييم</div>
+                        <div class="skill-tag" data-lang="skill-time-management">إدارة الوقت</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- الشهادات -->
+        <section id="certificates" class="certificates-section">
+            <div class="section-header">
+                <h2 data-lang="certificates-title">الشهادات والإنجازات</h2>
+                <div class="electric-line"></div>
+            </div>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3 data-lang="certificate-third-place">المركز الثالث</h3>
+                    <p data-lang="certificate-innovation-x">مسابقة مشاريع التخرج - Innovation X</p>
+                    <p class="certificate-description" data-lang="certificate-description-1">حصلت على المركز الثالث في مسابقة مشاريع التخرج Innovation X</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 data-lang="certificate-training">شهادة تدريبية</h3>
+                    <p data-lang="certificate-ai-applications">تطبيقات الذكاء الاصطناعي في الهندسة</p>
+                    <p class="certificate-description" data-lang="certificate-description-2">شهادة في تطبيقات الذكاء الاصطناعي في مجال الهندسة الكهربائية</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3 data-lang="certificate-workshop">ورشة عمل</h3>
+                    <p data-lang="certificate-solar-systems">تصميم وتركيب أنظمة الطاقة الشمسية</p>
+                    <p class="certificate-description" data-lang="certificate-description-3">شهادة مشاركة في ورشة عمل حول تصميم وتركيب أنظمة الطاقة الشمسية</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- تواصل معي -->
+        <section id="contact" class="contact-section">
+            <div class="section-header">
+                <h2 data-lang="contact-title">تواصل معي</h2>
+                <div class="electric-line"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3 data-lang="contact-email-title">البريد الإلكتروني</h3>
+                        <p>alsqri41@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3 data-lang="contact-phone-title">الهاتف</h3>
+                        <p>+968 97015466</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3 data-lang="contact-location-title">الموقع</h3>
+                        <p>الشرقية، عُمان</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required data-lang="contact-name" placeholder="الاسم">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required data-lang="contact-email" placeholder="البريد الإلكتروني">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required data-lang="contact-message" placeholder="الرسالة"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn" data-lang="contact-submit">إرسال</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <i class="fas fa-bolt"></i>
+                    <span data-lang="footer-name">إبراهيم الصقري</span>
+                </div>
+                <p data-lang="footer-description">مهندس كهرباء متخصص في تصميم وتطوير الأنظمة الكهربائية</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home" data-lang="footer-home">الرئيسية</a>
+                <a href="#about" data-lang="footer-about">نبذة عني</a>
+                <a href="#experience" data-lang="footer-experience">الخبرات</a>
+                <a href="#skills" data-lang="footer-skills">المهارات</a>
+                <a href="#certificates" data-lang="footer-certificates">الشهادات</a>
+                <a href="#contact" data-lang="footer-contact">تواصل معي</a>
+            </div>
+            <div class="social-links">
+                <p data-lang="footer-social">تواصل معي على</p>
+                <div class="social-icons">
+                    <a href="mailto:alsqri41@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p><span data-lang="footer-rights">جميع الحقوق محفوظة</span> &copy; 2024 - <span data-lang="footer-designed">تم التصميم بواسطة</span> Crown_Prince91</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
